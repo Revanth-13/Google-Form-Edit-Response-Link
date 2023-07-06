@@ -7,7 +7,7 @@ Creating this repo for easy understanding of Google Form Edit Response
 The Script to Use
 
 function assignEditUrls() {
-  var form = FormApp.openById('Your form ke goes here');
+  var form = FormApp.openById('Your form key goes here');
 
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Your responses Google Sheet name goes here - The tab name, not the file name');
 
